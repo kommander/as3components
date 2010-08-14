@@ -1,0 +1,14 @@
+as3components
+
+For now there is just the URLImage Class, which I used in many projects over the time.
+
+
+URLImage
+This class provides basic functionality to load an Image from an URL and add it to the stage,
+before it is loaded. The whole loading process is managed by the class.
+It also includes a cache for loaded images and a loading queue,
+which manages all URLImages in a project.
+
+Example:
+var image:URLImage = new URLImage('http://github.com/images/modules/header/logov3-hover.png');
+addChild(image);
