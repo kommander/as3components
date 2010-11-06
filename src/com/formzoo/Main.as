@@ -4,7 +4,8 @@
 	import flash.events.Event;
 	
 	/**
-	 * ...
+	 * TODO implement a demo overview
+	 * 
 	 * @author Sebastian Herrlinger
 	 */
 	public class Main extends Sprite 
